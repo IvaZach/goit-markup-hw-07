@@ -22,7 +22,7 @@
 .navigation__link {
   position: relative;
   color: var(--header-color);
-  text-decoration: none;
+  @extend %decoration;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -51,7 +51,7 @@
 
 .navigation__mail {
   color: var(--paragraph-color);
-  text-decoration: none;
+  @extend %decoration;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -67,7 +67,7 @@
 
 .navigation__tel {
   color: var(--paragraph-color);
-  text-decoration: none;
+  @extend %decoration;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
